@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Font-Manrope */
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 700;
+  src: url("../public/fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 800;
+  src: url("../public/fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 200;
+  src: url("../public/fonts/Manrope/Manrope-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 300;
+  src: url("../public/fonts/Manrope/Manrope-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 400;
+  src: url("../public/fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-weight: 600;
+  src: url("../public/fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+}
+
+/* Font-Spartan  */
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 900;
+  src: url("../public/fonts/Spartan/Spartan-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 700;
+  src: url("../public/fonts/Spartan/Spartan-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 800;
+  src: url("../public/fonts/Spartan/Spartan-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 200;
+  src: url("../public/fonts/Spartan/Spartan-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 300;
+  src: url("../public/fonts/Spartan/Spartan-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 500;
+  src: url("../public/fonts/Spartan/Spartan-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 400;
+  src: url("../public/fonts/Spartan/Spartan-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 600;
+  src: url("../public/fonts/Spartan/Spartan-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Spartan;
+  font-weight: 100;
+  src: url("../public/fonts/Spartan/Spartan-Thin.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Manrope';
+}
+
+.ce-chat-engine {
+  background-color: transparent !important;
+  width: 100%;
+}
+
+.ce-wrapper {
+  height: 100%;
+}
+
+.ce-settings-column {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  z-index: 100 !important;
+  position: absolute !important;
+  right: 0 !important;
+  height: calc(100% - 41px);
+  width: max-content !important;
+}
+
+.ce-settings-column .ce-settings {}
+
+.ce-chat-feed-column {
+  flex: 1 !important;
+  max-width: unset !important;
+}
+
+#ce-feed-container {
+  overflow: hidden auto !important;
+}
+
+.ce-chat-list-column, .ce-chat-feed-column {
+  max-height: 100%;
+}
+
+#ce-ice-breaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ce-my-message-bubble {
+  display: inline-flex;
+  min-height: 40px;
+  padding: 10px 19px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px !important;
+  background: linear-gradient(139deg, #0E45B5 0.33%, #66D6F9 100%);
+}
+
