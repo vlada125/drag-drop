@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/drag-drop/static/css/main.7a32769e.css",
-    "main.js": "/drag-drop/static/js/main.ae799b12.js",
+    "main.css": "/drag-drop/static/css/main.60ab5de2.css",
+    "main.js": "/drag-drop/static/js/main.18c04a1d.js",
     "static/js/787.ddc63995.chunk.js": "/drag-drop/static/js/787.ddc63995.chunk.js",
     "static/media/home-back.png": "/drag-drop/static/media/home-back.cedf29365e939ff98c0e.png",
     "static/media/Manrope-ExtraBold.ttf": "/drag-drop/static/media/Manrope-ExtraBold.5b0ae7100ad1d12e53c9.ttf",
@@ -20,12 +20,12 @@
     "static/media/Spartan-Thin.ttf": "/drag-drop/static/media/Spartan-Thin.dafa3a94f65cb47d1205.ttf",
     "static/media/Spartan-Bold.ttf": "/drag-drop/static/media/Spartan-Bold.386419b2a5c9d587e458.ttf",
     "index.html": "/drag-drop/index.html",
-    "main.7a32769e.css.map": "/drag-drop/static/css/main.7a32769e.css.map",
-    "main.ae799b12.js.map": "/drag-drop/static/js/main.ae799b12.js.map",
+    "main.60ab5de2.css.map": "/drag-drop/static/css/main.60ab5de2.css.map",
+    "main.18c04a1d.js.map": "/drag-drop/static/js/main.18c04a1d.js.map",
     "787.ddc63995.chunk.js.map": "/drag-drop/static/js/787.ddc63995.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a32769e.css",
-    "static/js/main.ae799b12.js"
+    "static/css/main.60ab5de2.css",
+    "static/js/main.18c04a1d.js"
   ]
 }
