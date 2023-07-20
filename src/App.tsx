@@ -18,8 +18,8 @@ const App = () => {
     <div className="App h-screen overflow-x-hidden">
       <BrowserRouter>
         <Routes>
-          <Route path={ROUTES.PROJECTS} element={<ProjectsPage />} />
-          <Route path={'/*'} element={<Navigate to={ROUTES.PROJECTS} />} />
+          {/* <Route path={ROUTES.PROJECTS} element={<ProjectsPage />} /> */}
+          <Route path={'/'} element={<Navigate to={ROUTES.PROJECTS} />} />
         </Routes>
       </BrowserRouter>
     </div>
