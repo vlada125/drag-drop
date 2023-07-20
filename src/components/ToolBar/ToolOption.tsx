@@ -33,7 +33,7 @@ export const ToolOption: FC<ToolOptionProps> = (props) => {
   
   return (
     <div ref={drag} className="flex flex-col items-center py-[5px] mx-1 relative z-30" style={{ opacity }}>
-      <img src={icon} alt={'option icon'} />
+      {/* <img src={icon} alt={'option icon'} /> */}
       {!!label && (<p className="text-center text-neutral-500 text-xs font-medium mt-[3px]">{label}</p>)}
     </div>
   );
