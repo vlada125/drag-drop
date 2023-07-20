@@ -1,2 +1,5 @@
-export const HOME = '/drag-drop'
+export const HOME = '/'
+export const TASKS = '/tasks'
 export const PROJECTS = '/drag-drop/projects'
+export const LOGIN = '/login'
+export const SIGN_UP = '/sign-up'
